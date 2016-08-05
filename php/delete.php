@@ -4,7 +4,6 @@
   
   // get server requests
   $method = $_SERVER['REQUEST_METHOD'];
-  $request = explode('/', trim($_SERVER['PATH_INFO'], '/'));
   
   // DELETE Route using query strings and http methods
   // Parse the query string
